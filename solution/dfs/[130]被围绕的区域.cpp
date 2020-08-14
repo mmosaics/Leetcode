@@ -32,6 +32,7 @@ public:
     void solve(vector<vector<char>>& board) {
         if(board.size() == 0)
             return;
+        
         int rowSize = board.size();
         int columnSize = board[0].size();
         //先对边缘为O的进行深度优先搜索
